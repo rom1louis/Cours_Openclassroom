@@ -1,0 +1,65 @@
+body
+{
+	background-image: url("image/fond.jpg");
+	display: flex;
+    /*float: left;
+    width: 200px;
+    height: 100%;
+    background: blue;*/
+}
+
+section
+{
+	display: flex;
+	flex-direction: column;
+}
+
+.sidebar
+{
+	background: blue;
+	width: 100px;
+	height: 100%;
+}
+
+#conteneur
+{
+    display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.experience
+{
+	padding: 25px;
+    flex: 2;
+}
+.competences
+{
+	padding: 25px;
+    flex: 1;
+}
+
+.formation
+{
+	padding: 25px;
+    flex: 1;
+}
+
+h1
+{
+	text-align: center;
+	/*text-shadow : 2px 2px 4px green;*/
+}
+h2
+{
+	color: blue;
+}
+a
+{
+	float: right;
+	
+}
+@font-face { /* Définition d'une nouvelle police nommée LearningCurveProRegular */
+    font-family: 'LearningCurveProRegular';
+    src: url('police/learning_curve_regular.ttf');
+}
